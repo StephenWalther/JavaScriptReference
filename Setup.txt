@@ -1,0 +1,7 @@
+You need to install the following items before you can build this solution:
+
+1. Microsoft Script Control -- Required to run JavaScript unit tests. Download from http://www.microsoft.com/downloads/en/details.aspx?FamilyID=d7e31492-2595-49e6-8c02-1426fec693ac
+
+2. Java SDK -- In order to run Selenium you must first install the Java SE SDK which you can download from http://www.oracle.com/technetwork/java/javase/downloads/index.html
+ 
+You must run the StartSeleniumServer.bat batch file before you can run any of the tests from the JavaScriptReference.QATests project. 

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <appSettings>
+    <add key="userName" value="Admin" />
+    <add key="password" value="secret" />
+  </appSettings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.0">
+      <assemblies>
+        <add assembly="System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      </assemblies>
+    </compilation>
+  </system.web>
+  <connectionStrings>
+    <add name="ReferenceDBEntities" connectionString="metadata=res://*/Models.ReferenceDBModel.csdl|res://*/Models.ReferenceDBModel.ssdl|res://*/Models.ReferenceDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ReferenceDB.mdf;Integrated Security=True;User Instance=True;MultipleActiveResultSets=True&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+  <system.serviceModel>
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="JavaScriptReference.Services.LoginAspNetAjaxBehavior">
+          <enableWebScript />
+        </behavior>
+      </endpointBehaviors>
+    </behaviors>
+    <services>
+      <service name="JavaScriptReference.Services.LoginService">
+        <endpoint address="" behaviorConfiguration="JavaScriptReference.Services.LoginAspNetAjaxBehavior" binding="webHttpBinding" contract="JavaScriptReference.Services.LoginService" />
+      </service>
+    </services>
+    <serviceHostingEnvironment aspNetCompatibilityEnabled="true" multipleSiteBindingsEnabled="true" />
+  </system.serviceModel>
+</configuration>

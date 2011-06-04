@@ -1,0 +1,81 @@
+﻿    
+html {
+    background-color:Gray;
+    font-size: 0.8em;
+}
+    
+.entry {
+    border: solid 2px black;
+    margin-top:10px;
+    padding:10px;
+    background-color:#eeeeee;   
+}
+
+    
+#filterContainer {
+    border: solid 2px black;
+    padding:10px;
+    background-color:#eeeeee;   
+}
+    
+    
+#syntaxOptions {
+    font-size:0.8em;   
+}
+    
+
+.admin {
+    display:none;   
+}
+
+.displayNone {
+    display:none;   
+}
+
+.error {
+    font-weight:bold;
+    color:Red;   
+}
+
+.status {
+    position:absolute;
+    top:0px;
+    right:0px;
+    z-index:9999;
+    background-color:yellow;
+    border:solid 1px black;
+    padding:10px;
+    font-weight:bold;
+}
+
+
+.entryDetailsCloud {
+    width:90%;
+}
+
+.entryDetailsCloud a {
+    float:left;
+    margin-right:10px;
+}
+
+.entryName {
+    font-size: 1.8em;   
+    font-weight:bold;
+}
+
+pre {
+    color: White;
+    background-color: Black;   
+    margin:10px;
+    padding:5px;
+}
+
+#logoDiv {
+    background-color:White;
+    border: solid 2px black;   
+    padding:4px;
+}
+
+#logoDiv img {
+    vertical-align:middle;
+}

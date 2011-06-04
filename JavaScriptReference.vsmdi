@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration id="8605234c-316f-4903-9664-977a1b408d1d" name="Local" storage="local.testsettings" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration, Microsoft.VisualStudio.QualityTools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestList>
+  <TestList name="My Unit Tests" id="99301400-a267-4adb-84df-ae396784e70e" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <Description>Contains only unit tests</Description>
+    <TestLinks>
+      <TestLink id="0bdb9097-cedc-0ec7-d032-ff8fde4f160c" name="TestFilter" storage="javascriptreference.tests\bin\debug\javascriptreference.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="2293d93b-66fc-542a-4f5d-d79a6fbe183c" name="TestMethod1" storage="javascriptreference.tests\bin\debug\javascriptreference.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink id="c471662a-a07b-069f-a74d-637f6f0cf2a5" name="TestGet" storage="javascriptreference.tests\bin\debug\javascriptreference.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

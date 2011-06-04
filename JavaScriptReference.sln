@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptReference", "JavaScriptReference\JavaScriptReference.csproj", "{56144964-32B5-4AC0-A461-6AB9B3603EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptReference.UnitTests", "JavaScriptReference.UnitTests\JavaScriptReference.UnitTests.csproj", "{96761595-FFF7-4F93-B61E-5B8D88708B5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C38A0F99-1F27-4FEF-BBDC-FC190EB7E9AA}"
+	ProjectSection(SolutionItems) = preProject
+		JavaScriptReference.vsmdi = JavaScriptReference.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptReference.QATests", "JavaScriptReference.QATests\JavaScriptReference.QATests.csproj", "{3B0A7115-FC33-4ABC-8694-DD56F4DB4ACC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{16B5BFD7-7FEC-44B8-8085-308D819CEC7F}"
+	ProjectSection(SolutionItems) = preProject
+		Setup.txt = Setup.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombineMinifyTask", "CombineMinifyTask\CombineMinifyTask.csproj", "{03AF8BFE-2999-4B34-ADB9-8A9921162366}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = JavaScriptReference.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56144964-32B5-4AC0-A461-6AB9B3603EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56144964-32B5-4AC0-A461-6AB9B3603EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56144964-32B5-4AC0-A461-6AB9B3603EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56144964-32B5-4AC0-A461-6AB9B3603EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96761595-FFF7-4F93-B61E-5B8D88708B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96761595-FFF7-4F93-B61E-5B8D88708B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96761595-FFF7-4F93-B61E-5B8D88708B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96761595-FFF7-4F93-B61E-5B8D88708B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0A7115-FC33-4ABC-8694-DD56F4DB4ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0A7115-FC33-4ABC-8694-DD56F4DB4ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0A7115-FC33-4ABC-8694-DD56F4DB4ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0A7115-FC33-4ABC-8694-DD56F4DB4ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AF8BFE-2999-4B34-ADB9-8A9921162366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AF8BFE-2999-4B34-ADB9-8A9921162366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AF8BFE-2999-4B34-ADB9-8A9921162366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

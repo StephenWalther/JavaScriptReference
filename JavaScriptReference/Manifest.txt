@@ -1,0 +1,38 @@
+﻿CACHE MANIFEST
+# v30
+Default.aspx
+
+# Standard Script Libraries
+Scripts/jquery-1.4.4.min.js
+Scripts/jquery-ui-1.8.7.custom.min.js
+Scripts/jquery.tmpl.min.js
+Scripts/json2.js
+
+# App Scripts
+App_Scripts/combine.js
+App_Scripts/combine.debug.js
+
+# Content (CSS & images)
+Content/default.css
+Content/logo.png
+Content/ui-lightness/jquery-ui-1.8.7.custom.css
+Content/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png
+Content/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png
+Content/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Content/ui-lightness/images/ui-icons_222222_256x240.png
+Content/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png
+Content/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png
+Content/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Content/ui-lightness/images/ui-icons_ffffff_256x240.png
+Content/ui-lightness/images/ui-icons_ef8c08_256x240.png
+Content/browsers/c8.png
+Content/browsers/es3.png
+Content/browsers/es5.png
+Content/browsers/ff3_6.png
+Content/browsers/ie8.png
+Content/browsers/ie9.png
+Content/browsers/sf5.png
+
+NETWORK:
+Services/EntryService.svc
+http://superexpert.com/resources/JavaScriptReference/
